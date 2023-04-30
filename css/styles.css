@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    background-image: url(../img/fondo_nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nombre_pagina {
+    color: white;
+    text-align: center;
+}
+
+.dias {
+    font-weight: bold;
+    font-size: large;
+}
+
+.horas {
+    font-style: italic;
+}
+
+.color1 {
+    background-color: rgba(0, 188, 0, 0.750);
+}
+
+.color2 {
+    background-color: rgba(255, 255, 0, 0.750);
+}
+
+.color3 {
+    background-color: rgba(255, 0, 0, 0.750);
+}
+
+.tabla_horarios {
+    box-sizing: content-box;
+    width: fit-content;
+    border-style: ridge;
+    border-color: rgb(0, 0, 57);
+    border-width: 5px;
+    background-color: rgba(255, 235, 205, 0.158);
+    padding: 15px;
+    margin: 10px;
+}
+
+.formulario {
+    line-height: 25px;
+    box-sizing: content-box;
+    width: fit-content;
+    border-style: ridge;
+    border-color: rgb(0, 0, 57);
+    border-width: 5px;
+    background-color: rgba(255, 235, 205, 0.158);
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    color: white;
+    background-image: url(../img/fondo_nav.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
